@@ -19,7 +19,7 @@ jobs:
 
       # Шаардлагатай бол зөвхөн төслийн үндсэн хавтсанд шилжих
       - name: Change directory to project folder
-        run: cd Calculator  # Төслийн үндсэн хавтас руу шилжинэ
+        run: cd myproject # Төслийн үндсэн хавтас руу шилжинэ
 
       - name: JDK 17 Тохируулах
         uses: actions/setup-java@v4
